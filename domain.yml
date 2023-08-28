@@ -17,17 +17,8 @@ entities:
   - number
   - feedback
   - seating
-  - dish
 
 slots:
-  dish:
-    type: text
-    influence_conversation: false
-    mappings:
-    - type: from_entity
-      entity: dish
-      conditions:
-      - active_loop: restaurant_form
   cuisine:
     type: text
     influence_conversation: false
